@@ -1,0 +1,71 @@
+/* style.css */
+body {
+  font-family: 'Hanalei', cursive;
+  color: #404042;
+  font-size: 18px;
+  background-color: #f5d782;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;;
+  text-align: center;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.banner {
+	background-image: url('images/spacemov.gif');
+	background-size: cover;
+	color: #ec4646;
+	padding: 1px 0;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	grid-gap: 16px;
+}
+
+.card-white {
+	width: 300px;
+	background-color: white;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	color: black;
+	border-radius: 50;
+}
+
+.card-white img {
+	width: 300px;
+
+}
+
+.mainpage {
+	background-color: #f5d782;
+}
+
+.topcard{
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
